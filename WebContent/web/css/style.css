@@ -62,14 +62,15 @@ body {
     margin-bottom: 1.5em;
     text-transform: uppercase;
 }
-.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"] {
+.sub-main-w3 input[type="text"], .sub-main-w3 input[type="password"] {
     outline: none;
     font-size: .9em;
     padding: 1em 3em 1em 1em;
     border: none;
-    margin-bottom: 0.3em;
+    margin-bottom: 1.5em;
     background: rgba(255, 255, 255, 0.85);
     width: 82%;
+    height: 30px;
     color: #000;
     border-radius: 30px;
     font-weight: 400;
@@ -118,6 +119,7 @@ span.icon2 {
     padding: .7em 0;
     outline: none;
     width: 44%;
+    height: 50px;
     font-size: 1em;
     cursor: pointer;
     letter-spacing: 1px;
@@ -238,7 +240,7 @@ span.icon2 {
 
 }
 @media(max-width: 600px){
-	.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"] {
+	.sub-main-w3 input[type="text"], .sub-main-w3 input[type="password"] {
 		padding: .9em 3em .9em 1em;
 	}
 	.sub-main-w3 input[type="submit"] {
@@ -286,7 +288,7 @@ span.icon2 {
 	}
 }
 @media(max-width: 414px){
-	.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"] {
+	.sub-main-w3 input[type="text"], .sub-main-w3 input[type="password"] {
 		font-size: .85em;
 	}
 	.sub-w3l h6 a {
@@ -300,7 +302,7 @@ span.icon2 {
 	}
 }
 @media(max-width: 384px){
-	.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"] {
+	.sub-main-w3 input[type="text"], .sub-main-w3 input[type="password"] {
 		font-size: .8em;
 	}
 	.header-w3l h1 {
@@ -345,7 +347,7 @@ span.icon2 {
 		margin: 4.2em auto 4.5em;
 		width: 81%;
 	}
-	.sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"] {
+	.sub-main-w3 input[type="text"], .sub-main-w3 input[type="password"] {
 		width: 80%;
 	}
 }
